@@ -20,7 +20,8 @@ Visualize the results of cell-cell communication analysis based on CellPhoneDB
 > 下面代码演示一下
 
 ### 0. 下载并加载R包
-**最好提前安装几个依赖包：**RColorBrewer, igraph, reshape2, scales, tidyverse, xlsx
+**最好提前安装几个依赖包：**
+RColorBrewer, igraph, reshape2, scales, tidyverse, xlsx
 
 ```
 devtools::install_github("SiyuanHuang1/cpplot")
