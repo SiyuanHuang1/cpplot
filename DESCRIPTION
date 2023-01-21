@@ -1,12 +1,19 @@
 Package: cpplot
-Title: What the Package Does (One Line, Title Case)
+Title: Visualize the results of cell-cell communication analysis
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Siyuan", "Huang", , "huangsiyuan1001@163.com", role = c("aut", "cre"))
+Description: Visualize the results of cell-cell communication analysis based on CellPhoneDB.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
+Imports: 
+    grDevices,
+    igraph,
+    RColorBrewer,
+    reshape2,
+    scales,
+    tidyverse,
+    utils,
+    xlsx
